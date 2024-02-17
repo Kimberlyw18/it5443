@@ -1,0 +1,141 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; /* Footer stays on top of the banner image */
+}
+  
+.banner-text {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    color: white; 
+    font-size: 30px; 
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+  
+.faculty-image {
+    max-width: 10%;
+}
+
+.latest-news {
+    margin: 20px auto; 
+    padding: 30px; 
+    background-color: #f2f2f2; 
+    border-radius: 5px; 
+}
+  
+.latest-news h2 {
+    text-align: center; 
+    font-size: 1.8em; 
+    margin-bottom: 20px; 
+    color: #2d2d2d; 
+}
+  
+.news-list {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default list padding */
+    margin: 0; /* Remove default list margin */
+}
+  
+.news-list li {
+    margin-bottom: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: 0.2s; 
+}
+  
+.news-list li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+  
+.news-list li h4 {
+    font-size: 1.2em; 
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    color: #333; 
+}
+  
+.news-list li:hover h4 {
+    color: #007bff; 
+}
+  
+.contact-us {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.contact-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info li i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-info a:hover {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #222;
+}
